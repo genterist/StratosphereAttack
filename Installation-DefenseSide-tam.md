@@ -27,3 +27,4 @@ http://nsmwiki.org/index.php?title=Argus#Download_the_packages
   
 misc notes:
 nmcli : disable ethernet interface
+ssh -XC : to be able to lauch programs with graphical GUI from SSH session
