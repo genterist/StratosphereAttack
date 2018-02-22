@@ -25,9 +25,9 @@ http://nsmwiki.org/index.php?title=Argus#Download_the_packages
 * Download StratosphereIPS for linux
 > git clone https://github.com/stratosphereips/StratosphereLinuxIPS.git
 * launch Stratosphere
-> ra -F ./ra.conf -n -Z b -S 127.0.0.1:561 | python2.7 ./slips.py -f ./models -d
+> ra -F ./ra.conf -n -Z b -S 127.0.0.1:561 | python2.7 ./slips.py -f ./models -d -v 3
 <br/>  
 <br/>  
-misc notes:
-nmcli : disable ethernet interface
-ssh -XC : to be able to lauch programs with graphical GUI from SSH session
+misc notes:<br/>  
+nmcli : disable ethernet interface<br/>  
+ssh -XC : to be able to lauch programs with graphical GUI from SSH session<br/>  
