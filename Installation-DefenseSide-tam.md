@@ -18,3 +18,7 @@ http://nsmwiki.org/index.php?title=Argus#Download_the_packages
 * CD to root folder of stratosphere
 *launch Stratosphere
 > ra -F ./ra.conf -n -Z b -S 127.0.0.1:561 | python2.7 ./slips.py -f ./models -d
+  
+  
+misc notes:
+nmcli : disable ethernet interface
