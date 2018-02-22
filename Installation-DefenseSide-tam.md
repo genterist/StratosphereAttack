@@ -1,4 +1,5 @@
 1. INSTALLATION OF ARGUS
+
 * Technically can use:
 > sudo apt-get update <br/>
 > sudo apt install argus <br/>
@@ -8,23 +9,25 @@ http://nsmwiki.org/index.php?title=Argus#Download_the_packages
 * Note that there are 2 components : server and client
 * Note that if there is any complaint about missing files in /usr or any system folder, look for those files in the source of argus (git clone, then use find -name) and copy the files to correct location
 <br/>
-2. LAUNCH
-* find the correct interface
+
+ 2. LAUNCH
+  * find the correct interface <br/>
 > ip link show
-* launch argus
+  * launch argus
 > argus -d -i <correct interface name> -P 561
 * launch ra
 > ra -S 127.0.0.1:561
 * RA should show logs of package traffics
 * CD to root folder of stratosphere
 <br/>
+  
 3. STRATOSPHERE
 * Download StratosphereIPS for linux
 > git clone https://github.com/stratosphereips/StratosphereLinuxIPS.git
 * launch Stratosphere
 > ra -F ./ra.conf -n -Z b -S 127.0.0.1:561 | python2.7 ./slips.py -f ./models -d
-  
-  
+<br/>  
+<br/>  
 misc notes:
 nmcli : disable ethernet interface
 ssh -XC : to be able to lauch programs with graphical GUI from SSH session
