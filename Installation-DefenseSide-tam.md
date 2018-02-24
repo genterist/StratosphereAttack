@@ -2,7 +2,7 @@
 
 * Technically can use:
 > sudo apt-get update <br/>
-> sudo apt install argus <br/>
+> sudo apt install argus-server <br/>
 > sudo apt install argus-clients <br/>
 * But can do manually :
 http://nsmwiki.org/index.php?title=Argus#Download_the_packages
@@ -14,7 +14,7 @@ http://nsmwiki.org/index.php?title=Argus#Download_the_packages
   * find the correct interface <br/>
 > ip link show
   * launch argus
-> argus -d -i <correct interface name> -P 561
+> sudo argus -d -i [correct interface name] -P 561
 * launch ra
 > ra -S 127.0.0.1:561
 * RA should show logs of package traffics
