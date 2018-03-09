@@ -31,11 +31,11 @@ http://nsmwiki.org/index.php?title=Argus#Download_the_packages
 * Download Attack Framework for Linux
 > git clone https://github.com/stratosphereips/StratosphereTestingFramework.git
 * Install dependencies using PIP with targetted python version (in case you have multiple versions of python running). In this example, we will use PIP2.7
-> sudo pip2.7 install prettytable
-> sudo pip2.7 install transaction
-> sudo pip2.7 install persistent
-> sudo pip2.7 install zodb
-> sudo pip2.7 install sparse
+> sudo pip2.7 install prettytable <br/>
+> sudo pip2.7 install transaction <br/>
+> sudo pip2.7 install persistent <br/>
+> sudo pip2.7 install zodb <br/>
+> sudo pip2.7 install sparse <br/>
 <br/>  
 <br/>  
 misc notes:<br/>  
