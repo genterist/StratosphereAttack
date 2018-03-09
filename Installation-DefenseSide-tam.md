@@ -22,10 +22,20 @@ http://nsmwiki.org/index.php?title=Argus#Download_the_packages
 <br/>
   
 3. STRATOSPHERE
-* Download StratosphereIPS for linux
+* Download StratosphereIPS for Linux
 > git clone https://github.com/stratosphereips/StratosphereLinuxIPS.git
 * launch Stratosphere
 > ra -F ./ra.conf -n -Z b -S 127.0.0.1:561 | python2.7 ./slips.py -f ./models -d -v 3
+
+4. ATTACK FRAME WORK
+* Download Attack Framework for Linux
+> git clone https://github.com/stratosphereips/StratosphereTestingFramework.git
+* Install dependencies using PIP with targetted python version (in case you have multiple versions of python running). In this example, we will use PIP2.7
+> sudo pip2.7 install prettytable
+> sudo pip2.7 install transaction
+> sudo pip2.7 install persistent
+> sudo pip2.7 install zodb
+> sudo pip2.7 install sparse
 <br/>  
 <br/>  
 misc notes:<br/>  
